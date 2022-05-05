@@ -1,6 +1,6 @@
 FROM mondoo/client
 
-COPY entrypoint.sh /entrypoint.sh
+ADD entrypoint.sh /
 
 RUN chmod +x /entrypoint.sh
 
